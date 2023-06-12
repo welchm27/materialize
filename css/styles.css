@@ -1,0 +1,9 @@
+.button-backs {
+    background-color: blue;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 2;    
+}
+

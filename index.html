@@ -1,11 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- materialize css -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- materialize css -->
+
+    <!-- styles.css -->
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Materialize Demo</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav class="nav-extended navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#different-buttons">Different buttons</a></li>
+          <li class="tab"><a class="active" href="#cards">Cards</a></li>
+          <li class="tab"><a href="#footer">Footer</a></li>
+          <li class="tab disabled"><a href="#test4">disabled link</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+
+    <nav>
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a href="#!" class="breadcrumb">Main Page</a>
+          <a href="#!" class="breadcrumb">breadcrumb 1</a>
+          <a href="#!" class="breadcrumb">Current Location</a>
+        </div>
+      </div>
+    </nav>
+
+    <br id="different-buttons"/><br /><br>
+    <h3>Different buttons</h3>
+    <a class="waves-effect waves-light btn button-backs">normal button</a>
+    <a class="waves-effect waves-light btn"
+      ><i class="material-icons left">cloud</i>button</a
+    >
+    <a class="waves-effect waves-light btn"
+      ><i class="material-icons right">cloud</i>button</a
+    >
+
+    <br /><br />
+    <a class="btn-floating btn-large waves-effect waves-light red"
+      ><i class="material-icons">add</i></a
+    >
+
+    <br /><br />
+    <button class="btn waves-effect waves-light" type="submit" name="action">
+      Submit
+      <i class="material-icons right">send</i>
+    </button>
+
+    <br id="cards" /><br /><br>
+    <h3>Cards</h3>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>
+              I am a very simple card. I am good at containing small bits of
+              information. I am convenient because I require little markup to
+              use effectively.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus id quam
+      earum, at iste in praesentium eum amet autem asperiores, vitae maiores!
+      Corporis molestiae unde dicta nisi, doloremque iste eius!
+    </p>
+    <p>
+      Tempora aut explicabo, suscipit magnam quos alias beatae? Esse, veritatis
+      beatae? Deserunt quisquam, ut, libero ullam saepe mollitia distinctio
+      aliquam perspiciatis ipsum nemo impedit blanditiis facilis dolorum hic.
+      Sit, maxime.
+    </p>
+    <p>
+      Voluptates ea, dolor ipsa corporis sint totam eveniet officiis quo laborum
+      ut temporibus numquam sapiente, nulla tempora distinctio nostrum itaque,
+      quae et modi tempore culpa! Blanditiis vero dolore impedit sunt.
+    </p>
+    <p>
+      Debitis, quis. Minima nam recusandae velit aperiam nesciunt alias
+      explicabo quaerat vero. Officia ipsam architecto, illo soluta autem vel,
+      quo cum nihil voluptatem alias natus adipisci, quidem dolore velit et?
+    </p>
+    <p>
+      Repellat totam facere illo excepturi? Corrupti recusandae, sed ducimus
+      molestias accusantium quisquam omnis aperiam odit beatae atque, fugit
+      voluptatem. Dolor rem omnis quos quia ab laborum, nobis exercitationem
+      architecto vitae.
+    </p>
+    <p>
+      Ipsa vel sint aliquid, error, officia at qui, explicabo vero a iste
+      molestias hic impedit expedita. Praesentium qui, beatae porro hic,
+      laboriosam assumenda omnis enim accusamus id a officiis obcaecati.
+    </p>
+    <p>
+      Iste, rem alias! Voluptatum facere incidunt alias eligendi at id, libero
+      ullam! Deserunt, cumque ex laudantium sed quae suscipit repellendus modi,
+      ea aperiam ad perspiciatis temporibus, in molestias beatae officiis?
+    </p>
+    <p>
+      Minus aperiam tempora atque impedit in perspiciatis dolorum laborum rerum
+      facere, a maxime quidem hic quibusdam eveniet mollitia repellat beatae
+      unde aspernatur reiciendis asperiores nam tenetur voluptatem. Dolorum, at
+      quibusdam.
+    </p>
+    <p>
+      Magnam commodi quam maiores asperiores ducimus debitis ad doloribus
+      sapiente, laudantium quis, inventore tempora numquam omnis ratione
+      eveniet, corrupti obcaecati esse minus! Velit alias atque dolores labore,
+      repudiandae suscipit et?
+    </p>
+    <p>
+      Alias eos sed numquam maiores eligendi velit laborum explicabo quisquam
+      necessitatibus facere soluta iste voluptatibus, dolorem error sint qui
+      neque sequi placeat dolorum distinctio libero? Animi commodi nulla odio
+      earum.
+    </p>
+
+    <footer class="page-footer footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">
+              Huge footer content to make my page look super awesome!!!
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><i class="material-icons">email</i>Email us</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Linked in</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Facebook</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2023 Michael Welch not-inc.
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+    <!-- materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
 </html>
